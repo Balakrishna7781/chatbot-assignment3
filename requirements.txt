@@ -1,0 +1,22 @@
+# requirements.txt
+# MSCS-633-A01 Hands-On Assignment 3 – Q&A Chatbot
+# Install all dependencies with:
+#   pip install -r requirements.txt
+
+# Web framework (required by ChatterBot Django integration)
+Django>=4.2,<5.0
+
+# Conversational dialog engine
+ChatterBot>=1.2.0
+
+# ChatterBot's NLP corpus data
+chatterbot-corpus>=1.2.0
+
+# SQLAlchemy 2.x – required by ChatterBot 1.2.x storage adapter
+SQLAlchemy>=2.0,<2.1
+
+# Natural language toolkit (dependency of ChatterBot)
+nltk>=3.8
+
+# PyYAML – needed to load corpus YAML files
+PyYAML>=6.0
